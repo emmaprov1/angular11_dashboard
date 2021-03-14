@@ -1,0 +1,23 @@
+  
+    <div class="container-fluid px-0">
+      <app-header></app-header>
+      <app-mobile-header (eventClicked)="childEventClicked($event)"></app-mobile-header>
+    </div>
+  
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 sidebar-col pl-0">
+          <app-sidebar></app-sidebar>
+          <app-mobile-sidebar event="{{clickedEvent}}"></app-mobile-sidebar>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-9">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div> 
+     
+  <!-- footer starts here -->
+  <footer class="">
+    <app-footer></app-footer>
+  </footer>
+   

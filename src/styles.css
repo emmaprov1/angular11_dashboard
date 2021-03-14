@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+:root{
+    --primary: #1875f0;
+    --color-white: #ffffff;
+    --color-light: #f7f8fa;
+    --color-success: #27AE60;
+    --color-grey-dark-2: #979797;    
+    /* Fonts */
+    --font-family-source-main:   Roboto "Open Sans", "Helvetica Neue", sans-serif;
+
+}
+html {
+    font-size: 90.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box; 
+    font-family: var(--font-family-source-main);
+    background-color:var(--color-light);
+ 
+}
+
+.btn--success{
+    background: var(--color-success);
+    border-radius: 30px; 
+    color: var(--color-white); 
+    left: 32px;
+    top: 93px;
+    font-weight:  700;
+    font-size:.9rem
+}
+
+
+.header{ 
+background-color:var(--color-white);
+box-shadow: 0px 4px 10px rgba(79, 79, 79, 0.07); 
+}
+.avarter{
+    width: 40px;
+    height: 30px;
+}
+.header-user-profile span{
+    font-size:.89rem; 
+    display: block; 
+}
+.header-search{
+    border:0px
+}
+.header-search:focus{
+    border:0px;
+    border-bottom:1px solid #f3f3f3;
+    border-radius: 0px;
+    box-shadow:1px 1px var(--color-white);
+}
+.search-icon{
+    position: absolute;
+    left:-20px;
+    top:10px
+}
+.header-search{
+    width:400px !important
+}
+.search-container{
+    position: relative;
+}
+.profile-greeting{  
+    font-size:.77rem !important
+}
+.profile-name{ 
+    line-height: 19px; 
+    display: flex; 
+    text-align: center;
+}
+.header .nav-link {
+    padding-left: 30px !important
+}
+
+.nav-left .nav-link{
+    font-family: Segoe UI; 
+    color: #647787;
+
+}
+.navbar-brand{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    }
+/* side nav */
+.nav-item.active{
+    background-color:#e8f1fd;
+    border-left:5px solid var(--primary);
+}
+
+.sidebar{ 
+    height:100vh;
+    background-color:var(--color-white);
+    overflow:scroll; 
+    max-width: 260px;
+    position: fixed;
+    padding-bottom:200px !important;
+    }
+
+.sidebar::-webkit-scrollbar {
+    width: 5px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background: var(--color-grey-dark-2);
+    border-radius:10px;
+}
+.sidebar::-webkit-scrollbar-track {
+    background: #e8edf2;
+}
+.sidebar-col{
+    padding-top:50px;
+}
+
+.menu-btn{
+     padding:50px 0 10px 0;
+    display: flex;
+    justify-content:center;
+}
+ 
+.sidebar .nav-item{
+    padding:0px 10px;
+}
+.sidebar .nav-item a{
+    font-size:1rem;
+    line-height: 1.5rem;
+}
+
+.nav-segment{
+    margin-top:30px;
+}
+
+.sidebar .nav-link{
+  
+font-family: Segoe UI; 
+color: #647787;
+}
+
+@media(min-width:990px){
+    .main-page{
+        margin-top:100px;
+        padding-right:40px;
+    }
+    }
+
+    @media(max-width:990px){
+    .main-page{
+        margin-top:10px;
+        padding-left:10px;
+    }
+    }
+
+ ::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--color-grey-dark-2);
+    border-radius:10px;
+}
+::-webkit-scrollbar-track {
+    background: #e8edf2;
+}
+
+
+.home-card{
+    background: #FFFFFF;
+    border: 1px solid #EEF8FD;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 0 10px;
+}
+
+.home-card p{
+    font-size:.75rem
+}
+.home-card h5{
+    font-family: Segoe UI;
+    font-size: 18px;
+    display: flex;
+    align-items: flex-end;
+    color: #262626;
+}
+

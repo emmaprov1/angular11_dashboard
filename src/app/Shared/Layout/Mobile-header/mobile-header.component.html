@@ -1,0 +1,17 @@
+<div class="header fixed-top  bg-white mx-0 d-lg-none py-3">
+    <div class="row">
+        <div class="col-4 px-4">
+            <button class="btn btn-default" (click)="openSidenav()" *ngIf="!showIcon">
+                <i class="fa fa-bars fa-2x"></i>
+            </button>
+            <button class="btn btn-default" (click)="openSidenav()" *ngIf="showIcon">
+                <i class="fa fa-times fa-2x"></i>
+            </button>
+        </div>
+        <div class="col-4  d-flex justify-content-center "><a class="navbar-brand" href="#">TransMonitor</a> </div>
+        <div class="col-4 d-flex justify-content-end pr-4">
+            <h5 class="py-2 d-none d-sm-block">Emmanuel</h5>
+            <img src="./../../../../assets/avarter.png" class="avarter rounded-circle">  
+        </div>
+    </div>
+</div>

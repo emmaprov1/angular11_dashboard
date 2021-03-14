@@ -1,0 +1,14 @@
+.sidebar-mob{
+    z-index: 999;
+}
+.sidebar{
+    transition: all .5s ease-in-out;
+}
+
+.showSidebar{ 
+    margin-left:-100px;
+}
+
+.nav-item span{
+    padding-left:10px;
+}
