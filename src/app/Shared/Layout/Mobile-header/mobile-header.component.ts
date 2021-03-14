@@ -1,4 +1,3 @@
-import { sidebarAction } from './../../../Core/Actions/sidebarAction';
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { first } from 'rxjs/operators';

@@ -16,10 +16,7 @@ import { TodosEffects } from './Core/Effect/todoEffect';
 import { HttpClientModule } from '@angular/common/http'; 
 import { ChartsModule } from 'ng2-charts'; 
 import { DashboardComponent } from './Interfaces/Admin/Pages/Dashboard/dashboard.component';
-import { sidebarReducer } from './Core/Reducers/sidebarReducer';
  
-
-
 
 @NgModule({
   declarations: [
